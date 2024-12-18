@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab.MainMenuController">
+    <children>
+        <!-- Nadpis -->
+        <ImageView fitHeight="473.0" fitWidth="604.0" layoutX="2.0" layoutY="-105.0">
+            <image>
+                <Image url="@nadpis.png" />
+            </image>
+        </ImageView>
+        
+        <!-- Tlačidlo "Play" -->
+        <Button fx:id="playButton" layoutX="191.0" layoutY="200.0" mnemonicParsing="false" onAction="#handlePlayButton" prefHeight="47.0" prefWidth="182.0" text="PLAY" />
+
+        <!-- Tlačidlo "Settings" -->
+        <Button fx:id="settingsButton" layoutX="191.0" layoutY="258.0" mnemonicParsing="false" onAction="#handleSettingsButton" prefHeight="47.0" prefWidth="182.0" text="SETTINGS" />
+      <Button fx:id="exitButton" layoutX="256.0" layoutY="322.0" mnemonicParsing="false" text="EXIT" onAction="#handleExitButton" />
+    </children>
+</AnchorPane>

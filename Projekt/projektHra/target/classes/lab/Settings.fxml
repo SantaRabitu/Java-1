@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" >
+ 
+   <children>
+      <ImageView fitHeight="385.0" fitWidth="588.0" layoutX="6.0">
+         <image>
+            <Image url="@settingss.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="characterButton" layoutX="229.0" layoutY="229.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="141.0" text="SELECT CHARACTER" onAction = "#setCharButton" />
+      <Button fx:id="soundsButton" layoutX="229.0" layoutY="193.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="141.0" text="ENABLE SOUNDS" onAction = "#enableSoundsButton"/>
+      <Button fx:id="menuButton1" layoutX="229.0" layoutY="290.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="141.0" text="BACK TO MENU" onAction = "#backToMenuButton" />
+   </children>
+</AnchorPane>
